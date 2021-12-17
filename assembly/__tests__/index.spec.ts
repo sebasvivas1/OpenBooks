@@ -1,5 +1,5 @@
 import {Book, allBooks, allContributors, Contributor} from "../models"
-import { getBooks, uploadBook, deleteBooks, booksLen, getContributors, findContributor, deleteContributors, getContributorsLength } from "..";
+import { getBooks, uploadBook, deleteBooks, booksLen, getContributors, findContributor, deleteContributors, getContributorsLength, deleteBook } from "..";
 import { context, Context, logging } from "near-sdk-as";
 
 
