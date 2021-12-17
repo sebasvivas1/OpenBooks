@@ -43,15 +43,15 @@ Algunos de los metodos que podemos ejecutar son los siguientes
   ```
 - Buscar un libro en especifico
 ```bash
-near call dev-<tu numero de contrato> getBook '{"bookIndex": i32}' --accountId <tu_user.testnet>
+  near call dev-<tu numero de contrato> getBook '{"bookIndex": i32}' --accountId <tu_user.testnet>
   ```
 - Eliminar un libro
 ```bash
-near call dev-<tu numero de contrato> deleteBook '{"bookIndex": i32}' --accountId <tu_user.testnet>
+  near call dev-<tu numero de contrato> deleteBook '{"bookIndex": i32}' --accountId <tu_user.testnet>
   ```
 - Donar al proyecto
 ```bash
-near call dev<tu numero de contrato> donateToProject --accountId <tu_user.testnet> --amount i32
+  near call dev<tu numero de contrato> donateToProject --accountId <tu_user.testnet> --amount i32
   ```
 - Buscar los contribuyentes 
   ```bash
